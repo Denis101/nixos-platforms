@@ -1,0 +1,120 @@
+{
+  "nodes": {
+    "flake-schemas": {
+      "locked": {
+        "lastModified": 1721999734,
+        "narHash": "sha256-G5CxYeJVm4lcEtaO87LKzOsVnWeTcHGKbKxNamNWgOw=",
+        "owner": "DeterminateSystems",
+        "repo": "flake-schemas",
+        "rev": "0a5c42297d870156d9c57d8f99e476b738dcd982",
+        "type": "github"
+      },
+      "original": {
+        "owner": "DeterminateSystems",
+        "ref": "refs/tags/v0.1.5",
+        "repo": "flake-schemas",
+        "type": "github"
+      }
+    },
+    "flake-utils": {
+      "locked": {
+        "lastModified": 1652776076,
+        "narHash": "sha256-gzTw/v1vj4dOVbpBSJX4J0DwUR6LIyXo7/SuuTJp1kM=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "04c1b180862888302ddfb2e3ad9eaa63afc60cf8",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "ref": "refs/tags/v1.0.0",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "nix-fmt": {
+      "inputs": {
+        "flake-schemas": [
+          "flake-schemas"
+        ],
+        "flake-utils": [
+          "flake-utils"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1745175362,
+        "narHash": "sha256-uqoaZNR4yfXkSFik+MLspdOzQzEOo+Jkf72KiXM0EEw=",
+        "owner": "Denis101",
+        "repo": "flake-nix-fmt",
+        "rev": "5a18a62ddcbf0cfc50219bdb2989e3fadbd0df33",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Denis101",
+        "ref": "0.0.2",
+        "repo": "flake-nix-fmt",
+        "type": "github"
+      }
+    },
+    "nix-utils": {
+      "inputs": {
+        "flake-schemas": [
+          "flake-schemas"
+        ],
+        "flake-utils": [
+          "flake-utils"
+        ],
+        "nix-fmt": [
+          "nix-fmt"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1745184674,
+        "narHash": "sha256-cUOyOCyl35It7haAGQ6UhiFvAlIzADu4hQyngPuEtsY=",
+        "owner": "Denis101",
+        "repo": "flake-nix-utils",
+        "rev": "89dcf91ffef05df77f245e4114b2995c1f6e5fb7",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Denis101",
+        "ref": "0.0.1",
+        "repo": "flake-nix-utils",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1731603435,
+        "narHash": "sha256-CqCX4JG7UiHvkrBTpYC3wcEurvbtTADLbo3Ns2CEoL8=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "8b27c1239e5c421a2bbc2c65d52e4a6fbf2ff296",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "24.11",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flake-schemas": "flake-schemas",
+        "flake-utils": "flake-utils",
+        "nix-fmt": "nix-fmt",
+        "nix-utils": "nix-utils",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

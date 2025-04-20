@@ -1,5 +1,5 @@
 {
-  description = "Nix utility library";
+  description = "NixOS platforms";
 
   inputs = {
     flake-schemas = {
